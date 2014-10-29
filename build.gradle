@@ -1,0 +1,11 @@
+apply plugin: 'war'
+
+
+dependencies {
+    providedCompile 'javax:javaee-api:7.0'
+
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.1'
+}
